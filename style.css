@@ -42,6 +42,32 @@ header {
   padding: 30px 40px;
 }
 
+#passwordForm {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto  auto;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  
+}
+
+label {
+  font-weight: bold;
+}
+
+.character-container {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 3rem;
+}
+
 .card-header::after {
   content: " ";
   display: block;
@@ -52,6 +78,11 @@ header {
 
 .card-body {
   min-height: 100px;
+  word-break: break-all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
 }
 
 .card-footer {
@@ -73,7 +104,7 @@ header {
 }
 
 .btn {
-  border: none;
+  border: 2px solid black;
   background-color: hsl(360, 91%, 36%);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
@@ -91,6 +122,11 @@ header {
 button[disabled] {
   cursor: default;
   background: #c0c7cf;
+}
+
+.btn:hover {
+  background-color: #e6141433;
+  color: black;
 }
 
 .float-right {
