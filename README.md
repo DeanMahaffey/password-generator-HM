@@ -5,3 +5,4 @@ This project is a password generator; it is a useful tool to generate a strong p
 Here is the link to the GitHub Pages
 [Password Generator](https://deanmahaffey.github.io/password-generator-HM/)
 
+![alt text](ScreenShot.png)
